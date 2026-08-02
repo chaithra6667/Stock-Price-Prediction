@@ -121,7 +121,7 @@ else:
     # Load the Pre-trained Model
     try:
         with st.spinner("Loading the prediction model..."):
-            model = load_model("latest_stock_price_model.keras")
+            model = load_model("Latest_stock_price_model.keras")
     except Exception as e:
         st.error(f"Error loading model: {e}")
         st.stop()
